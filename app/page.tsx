@@ -22,7 +22,7 @@ export default function Home() {
               <Link href="/contact" className="text-sm text-gray-600 hover:text-gray-900 transition">
                 Contact
               </Link>
-              <a
+              
                 href="https://chromewebstore.google.com/detail/youtube-lyrics-extension/giihfpdmeapboodfloplndjkegmlfdma"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -50,7 +50,7 @@ export default function Home() {
               Instant, synced lyrics powered by smart detection & AI. Transform your YouTube experience with karaoke mode, multilingual support, and privacy-first technology.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <a
+              
                 href="https://chromewebstore.google.com/detail/youtube-lyrics-extension/giihfpdmeapboodfloplndjkegmlfdma"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -61,7 +61,7 @@ export default function Home() {
                 </svg>
                 Get the Chrome Extension
               </a>
-              <a
+              
                 href="#how-it-works"
                 className="inline-flex items-center px-8 py-4 border border-gray-300 text-lg font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 transition"
               >
@@ -72,6 +72,16 @@ export default function Home() {
               </a>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* AdSense - Above the Fold (Best Position) */}
+      <section className="py-8 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-4">
+            <p className="text-xs text-gray-400">Advertisement</p>
+          </div>
+          <AdPlaceholder slot="hero" />
         </div>
       </section>
 
@@ -94,6 +104,16 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* AdSense - After Features (Catches engaged users) */}
+      <section className="py-8 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-4">
+            <p className="text-xs text-gray-400">Advertisement</p>
+          </div>
+          <AdPlaceholder slot="features" />
         </div>
       </section>
 
@@ -144,8 +164,11 @@ export default function Home() {
             <p className="text-lg text-gray-600">Tools we love for music enthusiasts</p>
           </div>
           
-          {/* AdSense Placeholder - Non-intrusive */}
-          <AdPlaceholder />
+          {/* AdSense - In Monetization Section */}
+          <div className="text-center mb-4">
+            <p className="text-xs text-gray-400">Advertisement</p>
+          </div>
+          <AdPlaceholder slot="monetization" />
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             {/* Affiliate links placeholder - replace with actual affiliate links */}
@@ -192,7 +215,7 @@ export default function Home() {
               <Link href="/contact" className="text-sm text-gray-600 hover:text-gray-900 transition">
                 Contact
               </Link>
-              <a
+              
                 href="https://chromewebstore.google.com/detail/youtube-lyrics-extension/giihfpdmeapboodfloplndjkegmlfdma"
                 target="_blank"
                 rel="noopener noreferrer"
