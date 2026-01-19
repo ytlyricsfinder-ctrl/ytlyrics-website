@@ -4,7 +4,6 @@ import AdPlaceholder from "@/components/AdPlaceholder";
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
-      {/* Navigation */}
       <nav className="border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
@@ -35,7 +34,6 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Hero Section */}
       <section className="relative py-20 sm:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -47,7 +45,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="mt-6 text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Instant, synced lyrics powered by smart detection & AI. Transform your YouTube experience with karaoke mode, multilingual support, and privacy-first technology.
+              Instant, synced lyrics powered by smart detection and AI. Transform your YouTube experience with karaoke mode, multilingual support, and privacy-first technology.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
               
@@ -75,7 +73,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* AdSense - Above the Fold (Best Position) */}
       <section className="py-8 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-4">
@@ -85,7 +82,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Features Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -107,7 +103,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* AdSense - After Features (Catches engaged users) */}
       <section className="py-8 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-4">
@@ -117,7 +112,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* How It Works Section */}
       <section id="how-it-works" className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -138,7 +132,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Trust Section */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Built with privacy in mind</h2>
@@ -155,7 +148,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Monetization Section - Affiliate Placeholder */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -164,14 +156,12 @@ export default function Home() {
             <p className="text-lg text-gray-600">Tools we love for music enthusiasts</p>
           </div>
           
-          {/* AdSense - In Monetization Section */}
           <div className="text-center mb-4">
             <p className="text-xs text-gray-400">Advertisement</p>
           </div>
           <AdPlaceholder slot="monetization" />
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-            {/* Affiliate links placeholder - replace with actual affiliate links */}
             <div className="bg-white rounded-lg p-6 shadow-sm border border-gray-200">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Music Streaming</h3>
               <p className="text-gray-600 text-sm mb-4">Premium music services we recommend</p>
@@ -197,7 +187,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="border-t border-gray-200 py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
