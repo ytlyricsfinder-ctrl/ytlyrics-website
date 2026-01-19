@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ytlyrics.com/sitemap.xml
+
+# Disallow nothing - all pages are public
